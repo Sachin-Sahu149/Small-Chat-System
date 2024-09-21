@@ -1,0 +1,16 @@
+body{
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: hotpink; */
+    overflow-x: hidden;
+}
+.form_style{
+    min-width: 100px;
+    max-width: 300px;
+    min-height: 200px;
+    /* background-color: navajowhite; */
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(209, 161, 255);
+}

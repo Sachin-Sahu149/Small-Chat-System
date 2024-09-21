@@ -1,0 +1,57 @@
+body{
+
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.chat{
+    min-width: 20px;
+    max-width: 300px;
+    background-color: rgb(240, 165, 232);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 20px;
+}
+.new{
+    margin: 10px;
+}
+.border-radius{
+    border-radius: 25px;
+}
+.container{
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* box-sizing: border-box; */
+    padding: 10px;
+    margin: 0;
+}
+.msg{
+    min-width: 10px;
+    max-width: 500px;
+    min-height: 10px;
+    background-color: rgb(75, 91, 215);
+    color: white;
+    display: inline-block;
+    padding: 15px;
+
+    border-radius: 35px;
+}
+.from,.to{
+    min-width: 10px;
+    max-width: 300px;
+    min-height: 10px;
+    background-color: rgb(225, 234, 236);
+    color: rgb(23, 22, 22);
+    display: inline-block;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 35px;
+}
+.to,.span{
+    align-self: flex-start;
+}
